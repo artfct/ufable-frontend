@@ -1,0 +1,11 @@
+.clublist {
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 0px;
+    width: auto;
+    overflow: scroll;
+}
