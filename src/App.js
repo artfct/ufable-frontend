@@ -13,13 +13,12 @@ import LoginPage from './components/loginPage/LoginPage';
 
 function App() {
   return (
+
     <>
       <BrowserRouter>
         <Switch>
           <Route path="/dashboard">
-            <Navbar />
-            <Sidenavbar/>
-            <ClubListFeed/>
+            <ClubList/>
           </Route>
           <Route path="/login">
             <LoginPage />
@@ -28,7 +27,6 @@ function App() {
         </Switch>
       </BrowserRouter>
     </>
-
 
   );
 }

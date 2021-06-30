@@ -1,11 +1,19 @@
 import React from 'react'
+import SearchBar from './searchBar/SearchBar'
 
-const navbar = () => {
+const Navbar = () => {
     return (
-        <div>
-            this is navbar
+        <div className='navbar'>
+            <div className='logo'>
+                <img src='' alt="Ufable Logo" />
+            </div>
+            <SearchBar />
+            <div className='userProfile'>
+                <img src='' alt='User Profile Picture' />
+                <p>Aesop Fable</p>
+            </div>
         </div>
     )
 }
 
-export default navbar
+export default Navbar
