@@ -1,9 +1,13 @@
 import React from 'react'
+import './ClubListFeed.css'
+import ClubCard from './clubCard/ClubCard.js'
 
-const ClubListFeed = () => {
+const ClubListFeed = ({clubCards}) => {
     return (
-        <div>
-            this is the club lsit feed
+        <div className='clublist'>
+            {clubCards.map((clubCard) => (
+                <ClubCard key={clubCard.id} clubCard={clubCard}/>
+            ))}
         </div>
     )
 }

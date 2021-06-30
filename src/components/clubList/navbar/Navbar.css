@@ -1,0 +1,49 @@
+.navbar {
+    background-color: #ffffff;
+    height: 50px;
+    box-shadow: 0px 7px 7px #c9c9c9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0px 5px 0px;
+}
+
+.navbar > .searchBar {
+    width: 50%;
+}
+/* .navbar .userProfile {
+    flex-grow: 2;
+}
+
+.navbar > .searchBar {
+    flex-grow: 4;
+} */
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0rem 1rem 0rem 1rem;
+}
+
+.logo p {
+    padding-left: 5px;
+    color: #636363;
+}
+
+.userProfile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 5px 0px 5px;
+}
+
+.userProfile > img {
+    max-height: 26px;
+}
+
+.userProfile > p {
+    padding-left: 5px;
+    color: #636363;
+    font-size: 12px;
+}

@@ -1,8 +1,9 @@
-import React from 'react'
+import './Sidenavbar.css'
+
 
 const Sidenavbar = () => {
     return (
-        <div>
+        <div className='Sidenavbar'>
             this is side nav bar
         </div>
     )
