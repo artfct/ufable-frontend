@@ -4,6 +4,7 @@ function LoginPage() {
     return (
         <div>
             <p>Login LoginPage</p>
+            <p>test</p>
         </div>
     )
 }
