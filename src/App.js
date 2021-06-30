@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import ClubList from './components/clubList/ClubList'
 
 
 import './App.css';
@@ -27,6 +28,7 @@ function App() {
         </Switch>
       </BrowserRouter>
     </>
+
 
   );
 }
