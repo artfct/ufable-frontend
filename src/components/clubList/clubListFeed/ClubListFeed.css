@@ -1,6 +1,6 @@
 .clublist {
     height: 100vh;
-    background-color: rgb(214, 81, 81);
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -12,4 +12,8 @@
     flex-basis: 744px;
     position: relative;
     align-self: center;
+}
+
+.clublist ClubCard {
+    width: 100%;
 }

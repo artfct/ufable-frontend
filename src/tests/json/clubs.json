@@ -1,0 +1,193 @@
+[
+    {
+       "id": 1,
+       "img": "",
+       "title": "Articial Intelligence Association",
+       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci, leo adipiscing eget mattis. Aenean vitae pulvinar ultrices nulla est euismod amet fusce magna. Massa sed nam aliquam, duis tellus dictum aliquam nisi, venenatis. Tincidunt pulvinar in cursus aliquam ac.",
+       "tags": [
+          {
+             "id": 11,
+             "title": "tag1"
+          },
+          {
+             "id": 12,
+             "title": "tag2"
+          },
+          {
+            "id": 13,
+            "title": "tammy"
+         }
+       ],
+       "follow": false
+    },
+    {
+       "id": 2,
+       "img": "",
+       "title": "Habitat for Humanity Centre",
+       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci, leo adipiscing eget mattis. Aenean vitae pulvinar ultrices nulla est euismod amet fusce magna. Massa sed nam aliquam.",
+       "tags": [
+          {
+             "id": 21,
+             "title": "tag1"
+          },
+          {
+             "id": 22,
+             "title": "tag2"
+          }
+       ],
+       "follow": false
+    },
+    {
+       "id": 3,
+       "img": "",
+       "title": "Astronomy Research Club",
+       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci, leo adipiscing eget mattis. Aenean vitae pulvinar ultrices nulla est euismod amet fusce magna. Massa sed nam aliquam.",
+       "tags": [
+          {
+             "id": 31,
+             "title": "tag1"
+          },
+          {
+             "id": 32,
+             "title": "tag2"
+          }
+       ],
+       "follow": false
+    },
+    {
+       "id": 4,
+       "img": "",
+       "title": "Shiba Choreography Studio",
+       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lectus vel elementum ipsum ipsum mi proin. Quis erat cursus bibendum id magna eu morbi. Libero amet, diam scelerisque non massa.",
+       "tags": [
+          {
+             "id": 41,
+             "title": "tag1"
+          },
+          {
+             "id": 42,
+             "title": "tag2"
+          }
+       ],
+       "follow": false
+    },
+    {
+       "id": 5,
+       "img": "",
+       "title": "Immanuel Christian Community",
+       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci, leo adipiscing eget mattis. Aenean vitae pulvinar ultrices nulla est euismod amet fusce magna. Massa sed nam aliquam.",
+       "tags": [
+          {
+             "id": 51,
+             "title": "tag1"
+          },
+          {
+             "id": 52,
+             "title": "tag2"
+          }
+       ],
+       "follow": false
+    },
+    {
+       "id": 6,
+       "img": "",
+       "title": "Sixth Club",
+       "description": "This is a description",
+       "tags": [
+          {
+             "id": 61,
+             "title": "tag1"
+          },
+          {
+             "id": 62,
+             "title": "tag2"
+          }
+       ],
+       "follow": false
+    },
+    {
+       "id": 7,
+       "img": "",
+       "title": "Seventh Club",
+       "description": "This is a description",
+       "tags": [
+          {
+             "id": 71,
+             "title": "tag1"
+          },
+          {
+             "id": 72,
+             "title": "tag2"
+          }
+       ],
+       "follow": false
+    },
+    {
+       "id": 8,
+       "img": "",
+       "title": "Eight Club",
+       "description": "This is a description",
+       "tags": [
+          {
+             "id": 81,
+             "title": "tag1"
+          },
+          {
+             "id": 82,
+             "title": "tag2"
+          }
+       ],
+       "follow": false
+    },
+    {
+       "id": 9,
+       "img": "",
+       "title": "Nineth Club",
+       "description": "This is a description",
+       "tags": [
+          {
+             "id": 91,
+             "title": "tag1"
+          },
+          {
+             "id": 92,
+             "title": "tag2"
+          }
+       ],
+       "follow": false
+    },
+    {
+       "id": 10,
+       "img": "",
+       "title": "Tenth Club",
+       "description": "This is a description",
+       "tags": [
+          {
+             "id": 101,
+             "title": "tag1"
+          },
+          {
+             "id": 102,
+             "title": "tag2"
+          }
+       ],
+       "follow": false
+    },
+    {
+        "id": 11,
+        "img": "",
+        "title": "Eleventh Club",
+        "description": "This is a description",
+        "tags": [
+           {
+              "id": 111,
+              "title": "tag1"
+           },
+           {
+              "id": 112,
+              "title": "tag2"
+           }
+        ],
+        "follow": false
+     }
+ ]

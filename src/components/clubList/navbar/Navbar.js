@@ -2,7 +2,6 @@ import React from "react"
 import SearchBar from './searchBar/SearchBar'
 import googleLogo from '../../../assets/google-marketing-logo.svg'
 import userProfileIconImg from '../../../assets/user-profile-icon.png'
-
 import './Navbar.css'
 
 export default class Navbar extends React.Component {

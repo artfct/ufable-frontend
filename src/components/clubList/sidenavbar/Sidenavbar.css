@@ -3,8 +3,22 @@
     flex-direction: column;
     height: auto;
     width: auto;
-    background-color:#d4d4d4;
+    background-color:rgb(255, 255, 255);
     flex: 1;
-    color: white;
+    color: rgb(212, 212, 212);
     text-align: center;
+    box-shadow: 5px 5px solid rgb(rgba(0, 0, 0, 0)reen, blue);
+}
+
+.sidenavbar > p {
+    padding-left: 5px;
+    text-align: left;
+    color: rgb(83, 83, 83);
+    margin: 3px 0px;
+}
+
+.sidenavbar > h3 {
+    font-size: 1.5em;
+    text-align: center;
+    color: black;
 }
