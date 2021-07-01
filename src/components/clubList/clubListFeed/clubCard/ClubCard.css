@@ -1,16 +1,22 @@
+:root {
+    --primary: #3265f1;
+}
 .clubCard {
-    width: 200px;
-    height: 50px;
+    width: 550px;
+    height: 150px;
     background-color: rgb(255, 255, 255);
     color: rgb(163, 163, 163);
     /* box-shadow: 0px 5px rgb(24, 24, 24); */
-    padding: 50px;
+    padding: 5px;
     border: 1px solid rgb(196, 196, 196);
     border-radius: 10px;
     margin: 5px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: stretch;
+
+    -webkit-height: translateY(100%);
+    --height: translateY(100%);
 }
 
 @media screen and (max-width: 600px) {
@@ -19,8 +25,43 @@
     }
 }
 
-h2 {
-    font-family: 'Courier New', Courier, monospace;
-    padding: 1em 1em;
+.clubLogo {
+    display: flex;
+    justify-content: center;
+    background: rgb(87, 126, 255);
+    width: calc(var(--height) - 10px);
+    height: calc(var(--height)- 10px);
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
 
+.clubLogo > img {
+    max-width:100%;
+    max-height:100%;
+}
+
+.clubDetails {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 70%;
+    flex-wrap: nowrap;
+}
+
+.clubDetails > h3 {
+    font-size: 1.5em;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+.clubDetails > p {
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.clubTags {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
 }

@@ -1,0 +1,72 @@
+[
+    {
+        "id": "1",
+        "category": "Academic",
+        "child": []
+    },
+    {
+        "id": "2",
+        "category": "Arts",
+        "child": []
+    },
+    {
+        "id": "3",
+        "category": "Athletics And Recreation",
+        "child": []
+    },
+    {
+        "id": "4",
+        "category": "CommunityService",
+        "child": []
+    },
+    {
+        "id": "5",
+        "category": "Culture And Identities",
+        "child": []
+    },
+    {
+        "id": "6",
+        "category": "Environment And Sustainability",
+        "child": []
+    },
+    {
+        "id": "7",
+        "category": "Hobby And Leisure",
+        "child": []
+    },
+    {
+        "id": "8",
+        "category": "Global Interests",
+        "child": []
+    },
+    {
+        "id": "9",
+        "category": "Leadership",
+        "child": []
+    },
+    {
+        "id": "10",
+        "category": "Politics",
+        "child": []
+    },
+    {
+        "id": "11",
+        "category": "Social Justice/Advocacy",
+        "child": []
+    },
+    {
+        "id": "12",
+        "category": "Social",
+        "child": []
+    },
+    {
+        "id": "13",
+        "category": "Spirituality And Faith Communities",
+        "child": []
+    },
+    {
+        "id": "4",
+        "category": "Work And Career Development",
+        "child": []
+    }
+]

@@ -14,10 +14,13 @@ import MailIcon from "@material-ui/icons/Mail";
 
 import './Sidenavbar.css'
 
-const Sidenavbar = () => {
+const Sidenavbar = ({clubCategories}) => {
     return (
         <div className='sidenavbar'>
-            <p>This is side nav bar</p>
+            <h3>This is side nav bar</h3>
+            {clubCategories.map((category) => (
+                <p key={category.id}>{category.category}</p>
+            ))}
         </div>
     )
 }

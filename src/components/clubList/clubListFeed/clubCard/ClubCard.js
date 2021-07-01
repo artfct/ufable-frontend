@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { Component } from 'react';
 import './ClubCard.css'
 import googleLogo from '../../../../assets/google-marketing-logo.svg'
-
+import ClubTag from '../clubCard/clubTag/ClubTag'
 // import { makeStyles } from '@material-ui/core/styles';
 // import Grid from '@material-ui/core/Grid';
 // import Paper from '@material-ui/core/Paper';
@@ -29,25 +29,28 @@ import googleLogo from '../../../../assets/google-marketing-logo.svg'
 //   },
 // }));
 
-export default function ClubCard({clubCard}) {
+export default class ClubCard extends React.Component {
 //   const classes = useStyles();
-
-  return (
-      <div className='clubCard'>
+    constructor(props) {
+        super(props);
+    }
+render() {
+     return (
+      <div className='clubCard' key={this.props.clubCard.id}>
           <div className='clubLogo'>
-              <img src={googleLogo} alt={clubCard.title} />
+              <img src={googleLogo} alt={this.props.clubCard.title} style={{width: "150px"}}/>
           </div>
           <div className='clubDetails'>
-              <div className='clubName'>
-                  <p>{clubCard.title}</p>
-              </div>
-              <div className='clubDescription'>
-                  <p>{clubCard.description}</p>
-              </div>
+                <h3>{this.props.clubCard.title}</h3>
+                <p>{this.props.clubCard.description}</p>
+                
               <div className='clubTags'>
-                {clubCard.tags.map((tag) => (
-                    <p key={tag.id}>{tag.title}</p>
+                {this.props.clubCard.tags.map((tag) => (
+                    <ClubTag clubTag={tag} />
                 ))}
+                {/* {this.props.clubCard.tags.map((tag) => (
+                    <p key={tag.id}>{tag.title}</p>
+                ))} */}
               </div>
           </div>
       </div>
@@ -86,7 +89,7 @@ export default function ClubCard({clubCard}) {
     //   </Paper>
     // </div>
   );
-}
+}}
 
 // const ClubCard = ({clubCard}) => {
 //     return (
