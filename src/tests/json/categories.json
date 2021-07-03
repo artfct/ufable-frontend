@@ -1,123 +1,123 @@
 [
     {
-        "id": "1",
+        "id": "Academic-0",
         "category": "Academic",
         "child": []
     },
     {
-        "id": "2",
+        "id": "Arts-0",
         "category": "Arts",
         "child": [
             {
-                "id": "2-1",
+                "id": "VisualArts-1",
                 "category": "Visual Arts",
                 "child": [
                     {
-                        "id": "2-1-1",
+                        "id": "Architecture-2",
                         "category": "Architecture",
                         "child": []
                     },
                     {
-                        "id": "2-1-2",
+                        "id": "Drawing-2",
                         "category": "Drawing",
                         "child": []
                     },
                     {
-                        "id": "2-1-3",
+                        "id": "Photography-2",
                         "category": "Photography",
                         "child": []
                     },
                     {
-                        "id": "2-1-4",
+                        "id": "Media-2",
                         "category": "Media",
                         "child": []
                     }
                 ]
             },
             {
-                "id": "2-2",
+                "id": "LiteraryArts-1",
                 "category": "Literary Arts",
                 "child": []
             },
             {
-                "id": "2-3",
-                "category": "Performing arts",
+                "id": "PerformingArts-1",
+                "category": "Performing Arts",
                 "child": []
             },
             {
-                "id": "2-4",
-                "category": "Multidisciplinary artistic works",
+                "id": "MultidisciplinaryArtisticWorks-1",
+                "category": "Multidisciplinary Artistic Works",
                 "child": []
             },
             {
-                "id": "2-5",
+                "id": "AppliedArts-1",
                 "category": "Applied Arts",
                 "child": []
             },
             {
-                "id": "2-6",
+                "id": "ArtsCriticism-1",
                 "category": "Arts Criticism",
                 "child": []
             }
         ]
     },
     {
-        "id": "3",
+        "id": "AthleticsAndRecreation-0",
         "category": "Athletics And Recreation",
         "child": []
     },
     {
-        "id": "4",
-        "category": "CommunityService",
+        "id": "CommunityService-0",
+        "category": "Community Service",
         "child": []
     },
     {
-        "id": "5",
+        "id": "CultureAndIdentities-0",
         "category": "Culture And Identities",
         "child": []
     },
     {
-        "id": "6",
+        "id": "EnvironmentAndSustainability-0",
         "category": "Environment And Sustainability",
         "child": []
     },
     {
-        "id": "7",
+        "id": "HobbyAndLeisure-0",
         "category": "Hobby And Leisure",
         "child": []
     },
     {
-        "id": "8",
+        "id": "GlobalInterests-0",
         "category": "Global Interests",
         "child": []
     },
     {
-        "id": "9",
+        "id": "Leadership-0",
         "category": "Leadership",
         "child": []
     },
     {
-        "id": "10",
+        "id": "Politics-0",
         "category": "Politics",
         "child": []
     },
     {
-        "id": "11",
+        "id": "SocialJustice/Advocacy-0",
         "category": "Social Justice/Advocacy",
         "child": []
     },
     {
-        "id": "12",
+        "id": "Social-0",
         "category": "Social",
         "child": []
     },
     {
-        "id": "13",
+        "id": "SpiritualityAndFaithCommunities-0",
         "category": "Spirituality And Faith Communities",
         "child": []
     },
     {
-        "id": "4",
+        "id": "WorkAndCareerDevelopment-0",
         "category": "Work And Career Development",
         "child": []
     }

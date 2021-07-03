@@ -1,8 +1,21 @@
+.clubTagContainerParent {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+}
 .clubTagContainer {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    align-items: flex-start;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.clubTagContainerShow {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: aquamarine;
 }
 /* .category > p {
     text-align: center;
@@ -15,35 +28,39 @@
 } */
 
 #clubTagCategory {
-    text-align: center;
-    background-color: rgb(245, 245, 245);
-    color: rgb(83, 83, 83);
-    margin: 3px 3px;
-    padding: 5px;
-    border: 1px solid rgb(216, 216, 216);
-    border-radius: 15px;
-    width: fit-content;
-    /* width: 160px; */
+  text-align: center;
+  background-color: rgb(245, 245, 245);
+  color: rgb(83, 83, 83);
+  margin: 3px 3px;
+  padding: 5px;
+  border: 1px solid rgb(216, 216, 216);
+  border-radius: 15px;
+  width: fit-content;
+  /* width: 160px; */
 }
 
 #clubTagCategory:hover {
-    background-color: rgb(168, 168, 168);
-    color: rgb(255, 255, 255);
-    border: 1px solid rgb(102, 102, 102);
+  background-color: rgb(168, 168, 168);
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(102, 102, 102);
 }
 
 .childTag {
-    display: none;
+  display: none;
 }
 
-.childTagShow{
-    display: block;
-    padding: 0;
-    margin: 0;
+.childTagShow {
+  display: block;
+  padding: 0;
+  margin: 0;
 }
 
-.childTagShow > p{
-    display: block;
-    padding: 0;
-    margin: 0;
+.childTagShow > p {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.clubTagContainerShow > #Architecture-2 {
+  color: rgb(240, 0, 0);
 }
