@@ -7,7 +7,59 @@
     {
         "id": "2",
         "category": "Arts",
-        "child": []
+        "child": [
+            {
+                "id": "2-1",
+                "category": "Visual Arts",
+                "child": [
+                    {
+                        "id": "2-1-1",
+                        "category": "Architecture",
+                        "child": []
+                    },
+                    {
+                        "id": "2-1-2",
+                        "category": "Drawing",
+                        "child": []
+                    },
+                    {
+                        "id": "2-1-3",
+                        "category": "Photography",
+                        "child": []
+                    },
+                    {
+                        "id": "2-1-4",
+                        "category": "Media",
+                        "child": []
+                    }
+                ]
+            },
+            {
+                "id": "2-2",
+                "category": "Literary Arts",
+                "child": []
+            },
+            {
+                "id": "2-3",
+                "category": "Performing arts",
+                "child": []
+            },
+            {
+                "id": "2-4",
+                "category": "Multidisciplinary artistic works",
+                "child": []
+            },
+            {
+                "id": "2-5",
+                "category": "Applied Arts",
+                "child": []
+            },
+            {
+                "id": "2-6",
+                "category": "Arts Criticism",
+                "child": []
+            }
+        ]
     },
     {
         "id": "3",
