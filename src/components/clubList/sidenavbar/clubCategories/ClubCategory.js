@@ -8,13 +8,37 @@ const ClubCategory = ({selectedCategory, category, onChange}) => {
         setActive(!isActive);
     };
 
+    const categoryId = JSON.stringify(category.id)
+    const depth = categoryId.substring(categoryId.length -3, categoryId.length -1);
+    console.log(depth)
+
     return (
-        <div className="clubTagContainerParent">
-            <div className={`clubTagContainer${isActive ? "Show" : ""}`} onClick={handleToggle}>
-                <p className="clubTag" id="clubTagCategory" onClick={() => onChange(!selectedCategory)}>{category.category}</p>
-                <p id={category.id}>This is a test</p>
-            </div>
+        <div className="clubTagContainer">
+            <p
+                className={`clubTag${isActive ? "Clicked" : ""}`}
+                id={`clubTagCategory${depth}`}
+                onClick={ () => {onChange(!selectedCategory); handleToggle();}}>
+                {category.category}
+            </p>
         </div>
+
+        // <div className="clubTagContainerParent">
+        //     <div className={`clubTagContainer${isActive ? "Show" : ""}`} onClick={handleToggle}>
+        //         {/* <p
+        //             className="clubTag"
+        //             id="clubTagCategory"
+        //             onClick={() => onChange(!selectedCategory)}>
+        //             {category.category}
+        //         </p> */}
+        //         <p
+        //             className="clubTag"
+        //             id={`clubTagCategory${isActive ? "-2" : ""}`}
+        //             onClick={handleToggle, () => onChange(!selectedCategory)}>
+        //             {category.category}
+        //         </p>
+        //     </div>
+        // </div>
+
         // <div className="clubTagContainer">
         //     <p className="clubTag" id="clubTagCategory" onClick={handleToggle}>{category.category}</p>
         //     <div className={`childTag${isActive ? "Show" : ""}`}><p>This is hidden tag looooooooool</p></div>

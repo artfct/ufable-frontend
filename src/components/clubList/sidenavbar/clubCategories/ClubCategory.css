@@ -1,33 +1,21 @@
-.clubTagContainerParent {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  align-items: flex-start;
-}
 .clubTagContainer {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
   align-items: flex-start;
 }
-.clubTagContainerShow {
+/* .clubTagContainerShow {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
   align-items: flex-start;
   background-color: aquamarine;
-}
-/* .category > p {
-    text-align: center;
-    background-color: rgb(245, 245, 245);
-    color: rgb(83, 83, 83);
-    margin: 3px 0px;
-    padding: 5px;
-    border: 1px solid rgb(216, 216, 216);
-    border-radius: 15px;
 } */
+.clubTagContainerShow {
+  background-color: red;
+}
 
-#clubTagCategory {
+.clubTag {
   text-align: center;
   background-color: rgb(245, 245, 245);
   color: rgb(83, 83, 83);
@@ -39,13 +27,68 @@
   /* width: 160px; */
 }
 
-#clubTagCategory:hover {
+.clubTag:hover {
   background-color: rgb(168, 168, 168);
   color: rgb(255, 255, 255);
   border: 1px solid rgb(102, 102, 102);
 }
 
-.childTag {
+/* .clubTag-1 {
+  text-align: center;
+  background-color: rgb(197, 41, 41);
+  color: rgb(83, 83, 83);
+  margin: 3px 3px;
+  padding: 5px;
+  border: 1px solid rgb(216, 216, 216);
+  border-radius: 15px;
+  width: fit-content;
+} */
+
+.clubTagContainer > .clubTagClicked {
+  text-align: center;
+  background-color: rgb(54, 54, 54);
+  color: rgb(230, 230, 230);
+  margin: 3px 3px;
+  padding: 5px;
+  border: 1px solid rgb(105, 105, 105);
+  border-radius: 15px;
+  width: fit-content;
+  box-shadow: 0px 3px 3px rgb(119, 119, 119);
+}
+
+.clubTagContainer > #clubTagCategory-1 {
+  border: 1px solid rgb(255, 0, 0);
+
+}
+
+.clubTagContainer > #clubTagCategory-2 {
+  border: 1px solid rgb(35, 10, 255);
+
+}
+
+
+/* #clubTagCategory {
+  text-align: center;
+  background-color: rgb(245, 245, 245);
+  color: rgb(83, 83, 83);
+  margin: 3px 3px;
+  padding: 5px;
+  border: 1px solid rgb(216, 216, 216);
+  border-radius: 15px;
+  width: fit-content;
+}
+
+#clubTagCategory:hover {
+  background-color: rgb(168, 168, 168);
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(102, 102, 102);
+} */
+
+/* .clubTagContainer > #clubTagCategory-2 {
+   color: red;
+} */
+
+/* .childTag {
   display: none;
 }
 
@@ -59,8 +102,4 @@
   display: block;
   padding: 0;
   margin: 0;
-}
-
-.clubTagContainerShow > #Architecture-2 {
-  color: rgb(240, 0, 0);
-}
+} */
