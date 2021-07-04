@@ -5,8 +5,8 @@ import userProfileIconImg from '../../../assets/user-profile-icon.png'
 import './Navbar.css'
 
 export default class Navbar extends React.Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state={
             show: true,
             scrollPos: 0
@@ -33,7 +33,7 @@ export default class Navbar extends React.Component {
                     <img src={googleLogo} alt='UFable Logo'/>
                     <p>UFable</p>
                 </div>
-                <SearchBar className='searchBar'/>
+                <SearchBar className='searchBar' onSearchChange={this.props.onSearchChange}/>
                 <div className='userProfile'>
                     <img src={userProfileIconImg} alt='Current logged in username'/>    
                     <p>Aesop Fable</p>
