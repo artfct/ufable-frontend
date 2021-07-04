@@ -1,0 +1,105 @@
+.clubTagContainer {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+}
+/* .clubTagContainerShow {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: aquamarine;
+} */
+.clubTagContainerShow {
+  background-color: red;
+}
+
+.clubTag {
+  text-align: center;
+  background-color: rgb(245, 245, 245);
+  color: rgb(83, 83, 83);
+  margin: 3px 3px;
+  padding: 5px;
+  border: 1px solid rgb(216, 216, 216);
+  border-radius: 15px;
+  width: fit-content;
+  /* width: 160px; */
+}
+
+.clubTag:hover {
+  background-color: rgb(168, 168, 168);
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(102, 102, 102);
+}
+
+/* .clubTag-1 {
+  text-align: center;
+  background-color: rgb(197, 41, 41);
+  color: rgb(83, 83, 83);
+  margin: 3px 3px;
+  padding: 5px;
+  border: 1px solid rgb(216, 216, 216);
+  border-radius: 15px;
+  width: fit-content;
+} */
+
+.clubTagContainer > .clubTagClicked {
+  text-align: center;
+  background-color: rgb(54, 54, 54);
+  color: rgb(230, 230, 230);
+  margin: 3px 3px;
+  padding: 5px;
+  border: 1px solid rgb(105, 105, 105);
+  border-radius: 15px;
+  width: fit-content;
+  box-shadow: 0px 3px 3px rgb(119, 119, 119);
+}
+
+.clubTagContainer > #clubTagCategory-1 {
+  border: 1px solid rgb(255, 0, 0);
+
+}
+
+.clubTagContainer > #clubTagCategory-2 {
+  border: 1px solid rgb(35, 10, 255);
+
+}
+
+
+/* #clubTagCategory {
+  text-align: center;
+  background-color: rgb(245, 245, 245);
+  color: rgb(83, 83, 83);
+  margin: 3px 3px;
+  padding: 5px;
+  border: 1px solid rgb(216, 216, 216);
+  border-radius: 15px;
+  width: fit-content;
+}
+
+#clubTagCategory:hover {
+  background-color: rgb(168, 168, 168);
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(102, 102, 102);
+} */
+
+/* .clubTagContainer > #clubTagCategory-2 {
+   color: red;
+} */
+
+/* .childTag {
+  display: none;
+}
+
+.childTagShow {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.childTagShow > p {
+  display: block;
+  padding: 0;
+  margin: 0;
+} */
