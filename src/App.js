@@ -5,13 +5,11 @@ import ClubList from './components/clubList/ClubList'
 
 
 import './App.css';
-//import Navbar from './components/clubList/navbar/Navbar';
 import Sidenavbar from './components/clubList/sidenavbar/Sidenavbar';
 import ClubListFeed from './components/clubList/clubListFeed/ClubListFeed';
-import LoginPage from './components/loginPage/LoginPage';
+import LoginPage from './components/loginForm/LoginForm';
 import LandingPage from './components/landingPage/LandingPage';
-import Navbar from './components/navBar/Navbar';
-import Sidebar from './components/sideBar/Sidebar';
+import Home from './components/home/Home'
 
 function App() {
   return (
@@ -27,9 +25,7 @@ function App() {
           </Route>
 
           <Route path="/">
-            <Sidebar/>
-            <Navbar/>
-            <LandingPage/>
+            <Home/>
           </Route>
 
         </Switch>
